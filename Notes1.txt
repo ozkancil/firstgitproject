@@ -1,5 +1,6 @@
 this is my first github class
-
+conflict"->
+new remote code
 1: github day one;
 …or create a new repository on the command line
 echo "# firstgitproject" >> README.md
