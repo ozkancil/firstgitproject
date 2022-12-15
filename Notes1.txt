@@ -17,3 +17,18 @@ git push -u origin main
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
 we must use terminal to store and to send porjects.
+
+
+=====
+git ignore:
+What? .gitignore should be created at the project level.
+it is used to ignore/hide the files
+the files in .gitignore will not be added  and committed and pushed/
+=======================
+create 3 files: notes2.txt, notes3.txt, notes4.txt
+and create .gitignore file in hte project level
+Then put notes3.txt path in .gitignore file
+then commit
+then push
+then notes3.txt should not be pushed in github
+
