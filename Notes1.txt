@@ -109,3 +109,7 @@ but local is not updated.
 For this now we need to::
 1)git checkout master
 2. git pull
+
+======
+do not write codes in main branch. its dangerous.
+do it on feature/side branches
