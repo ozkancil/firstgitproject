@@ -90,3 +90,22 @@ git checkout   ozkan_sp10_sparrow
 write code in this feature/side branch
 --create a new file branch: notes7.txt
 --commit -m "new code"
+we do     git push --set-upstream origin ozkan_sp10_sparrow
+for the first time
+then git push
+
+--after last step pull request will be automatically created in github
+--the leader will check and merge and confirm merge.
+
+
+===
+lcoal, my local branch, remote branch , github/master branch
+This remote branch will not be added to github until someone checks and merges and confirms the merge.
+local branch is created in intellij, on git.
+
+=======================
+after the merge, feature branch/side branch and remote master is upto date
+but local is not updated.
+For this now we need to::
+1)git checkout master
+2. git pull
