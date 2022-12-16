@@ -32,3 +32,49 @@ then commit
 then push
 then notes3.txt should not be pushed in github
 
+===
+steps for getting code from remote repo?
+git fetch
+git merge
+git pull
+
+===========
+what is conflict?
+WHen does it happen?
+conflict is havin different code on the same line, then that is a conflict, that is if you are sharing the same files, classes with same name.
+so when we try to pull we get "conflict".
+How to resolve conflict?
+We should manually fix the code. There is an automatic way but its not recommended. Best to manually fix it.
+Steps after conflict:
+git add .
+git commit -m " "
+git push
+
+========
+can i push my local commits if i do not have the latest commit from github?
+No, because of hte security we must have hte latest code/commit from github before push
+-->Pull before push==> (git pull--> git add . ->git commit -m " " ->git push
+
+=================
+git branch -M main
+No one works on master branch cuz if deployed and there are mistakes then you can get fired.
+We will do merge on master branch. Someone will check our codes before we merge.
+if all code is good and reviewed then pull request then merge to remote to master branch.
+the experienced guy will merge code and push to master class so we will not do it.
+Each developr crates there own branch. Testers only have one branch. ANd they have sprint 10.4. so everyone clones and tests these branches.
+after it is tested lead merges to main branch
+we can create our own branch adn push or we can do one side branch and all can work on one branch. we never write code in master branch.
+we work on the feature branches. implimentatin can be different depending on the business.
+only one branch for sprint. Side branch, future branch.
+we work on copy we do not want to break original.
+PR is a pull request, lead developer. then that guyt reviews code, see if any rpoblems not logic check. double check and approve code.
+then they will send code. if there is a problem then only affects that branch not main code.
+we can use same terminal, and we will use intellij terminal.
+git branch or -a will lshow us all branch
+git branch sp10 ti will create branch sp10
+git checkout freature  will switch to feature branch
+git branch -d feature  delete feature branch
+git checkout master switch to master branch
+git merge feature --> master branch      this will merge feature branch into master branch
+git merge master -->feature branch     this will merge master to feature branch if u are on feature
+git push --set-upstream origin feature--> use whne you push for the first time. after the first time, git push is enough.
