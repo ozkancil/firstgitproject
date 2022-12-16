@@ -113,3 +113,4 @@ For this now we need to::
 ======
 do not write codes in main branch. its dangerous.
 do it on feature/side branches
+ do not push, pull or delete codes from main.
