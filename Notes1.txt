@@ -71,7 +71,8 @@ we work on copy we do not want to break original.
 PR is a pull request, lead developer. then that guyt reviews code, see if any rpoblems not logic check. double check and approve code.
 then they will send code. if there is a problem then only affects that branch not main code.
 we can use same terminal, and we will use intellij terminal.
-git branch or -a will lshow us all branch
+
+git branch or -a will lshow us all branch. main branch means master branch. -a will show us all branches
 git branch sp10 ti will create branch sp10
 git checkout freature  will switch to feature branch
 git branch -d feature  delete feature branch
@@ -79,3 +80,13 @@ git checkout master switch to master branch
 git merge feature --> master branch      this will merge feature branch into master branch
 git merge master -->feature branch     this will merge master to feature branch if u are on feature
 git push --set-upstream origin feature--> use whne you push for the first time. after the first time, git push is enough.
+
+====day 02
+BRANCHING
+git branch   ozkan_sp10_sparrow
+
+git checkout   ozkan_sp10_sparrow
+
+write code in this feature/side branch
+--create a new file branch: notes7.txt
+--commit -m "new code"
