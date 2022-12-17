@@ -114,3 +114,34 @@ For this now we need to::
 do not write codes in main branch. its dangerous.
 do it on feature/side branches
  do not push, pull or delete codes from main.
+
+
+=========
+to clone
+1. project name
+2.new
+3. project from version control
+for terminal we do:
+1. git clone url
+onyl done for public.
+
+===
+hard reset is for resetting but makes copy of remote master
+it will delete our extra code that is not pushed.
+git reset --hard origin/main
+if u delete your codes by accident reset will get the exact codes.
+
+======
+DIFFERENCE BETWEEN GIT AND GITHUB
+GIT:
+local version offline work, undo erros, ability to switch betwn versions
+GITHUB:
+backup, project sharing, project release deploy
+and callaboration.
+working spac, staging area, commit store
+working is local -> git add . -> staging area -> git commit -m""-> commit store
+git log
+
+
+======
+too merge we have to be in main branch then do --> git merge Notes.txt
