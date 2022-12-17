@@ -1,0 +1,32 @@
+Collaborators:
+we can add collaborators so that people we add has permission and access to push.
+we need to clone the code.
+
+TO CLONE:
+GO TO file-> project from version control
+put your URL u got from your git hub -> Code ->   GO TO file-> project from version control -> URL  HTTPS: https://github.com/ozkancil/firstgitproject.git
+NOW collaborator will get exact copy.
+NOW GO TO TERMINAL
+1. git branch -a
+2. git branch ozkan
+3. git branch -a
+4. git checkout ozkan
+5. git branch -a
+6. create new file, put note in file, write branch name and save it
+7.git add .
+8. git commit -m"new batch "ozkan" collaborator"
+9.git push-----> BUT DO PUSH UPSTREAM FIRST SO DO
+git push --set-upstream origin ozkan -------> we must do this cuz this is a new branch
+10. DONE!
+
+we can do git merge main to merge it with main.
+
+
+============
+we should not work on main. we need to create a branch/feature and work on that and push it from that. we add to main
+after we push, merge into github then pull into main.
+remote master will do pull request or we do it,  but they must approve the pull request.
+
+when u do git pull it will get remote git hub.
+if u do git merge main it will merge it with local.
+if u dont have the latest code from github u cannot push. you must pull first.
